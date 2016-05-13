@@ -1,0 +1,30 @@
+PODS:
+  - Realm (0.102.0):
+    - Realm/Headers (= 0.102.0)
+  - Realm/Headers (0.102.0)
+  - RealmSwift (0.102.0):
+    - Realm (= 0.102.0)
+  - SwiftyJSON (2.3.2)
+  - youtube-ios-player-helper (0.1.4)
+
+DEPENDENCIES:
+  - RealmSwift (~> 0.102)
+  - SwiftyJSON (from `https://github.com/SwiftyJSON/SwiftyJSON.git`)
+  - youtube-ios-player-helper (= 0.1.4)
+
+EXTERNAL SOURCES:
+  SwiftyJSON:
+    :git: https://github.com/SwiftyJSON/SwiftyJSON.git
+
+CHECKOUT OPTIONS:
+  SwiftyJSON:
+    :commit: 2a5b70f06001316d4fb54501edc70b4084705da0
+    :git: https://github.com/SwiftyJSON/SwiftyJSON.git
+
+SPEC CHECKSUMS:
+  Realm: 5d219f9037e3ec2019c599b8227bfc95433cb10e
+  RealmSwift: e6f436f9fea1c57b9ad6d1c46d57562c845f3c4c
+  SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
+  youtube-ios-player-helper: 84b1485ebb4b7c6b619c6e05edcb55186723a7c6
+
+COCOAPODS: 0.39.0
